@@ -1,25 +1,25 @@
 {
   "status": "ok",
-  "started_at": "2026-11-22T07:31:53Z",
-  "finished_at": "2026-11-22T07:33:56Z",
-  "duration_sec": 123.3,
+  "started_at": "2026-11-22T16:22:15Z",
+  "finished_at": "2026-11-22T16:24:07Z",
+  "duration_sec": 111.9,
   "sources_total": 8,
   "sources_ok": 8,
-  "fetched_nodes": 9530,
-  "parsed_nodes": 9530,
-  "deduped_nodes": 7038,
-  "duplicates_removed": 2492,
+  "fetched_nodes": 9763,
+  "parsed_nodes": 9763,
+  "deduped_nodes": 7258,
+  "duplicates_removed": 2505,
   "candidates": 300,
   "checked_nodes": 300,
-  "alive_nodes": 39,
-  "kept_nodes": 39,
-  "avg_latency_ms": 756,
+  "alive_nodes": 67,
+  "kept_nodes": 67,
+  "avg_latency_ms": 728,
   "protocols": {
-    "trojan": 7,
-    "vless": 12,
-    "ss": 9,
-    "vmess": 6,
-    "hysteria2": 5
+    "hysteria2": 11,
+    "ss": 18,
+    "vless": 18,
+    "vmess": 10,
+    "trojan": 10
   },
   "config_valid": true,
   "mihomo_version": "Mihomo Meta v1.19.34 linux amd64 with go1.26.11 Wed Nov 11 06:48:42 UTC 2026",
@@ -29,16 +29,16 @@
       "name": "barabama-merged-yaml",
       "ok": true,
       "skipped": false,
-      "bytes": 897754,
-      "elapsed_ms": 336,
+      "bytes": 916909,
+      "elapsed_ms": 102,
       "error": ""
     },
     {
       "name": "barabama-merged-uri",
       "ok": true,
       "skipped": false,
-      "bytes": 410915,
-      "elapsed_ms": 289,
+      "bytes": 483791,
+      "elapsed_ms": 52,
       "error": ""
     },
     {
@@ -46,7 +46,7 @@
       "ok": true,
       "skipped": false,
       "bytes": 546314,
-      "elapsed_ms": 253,
+      "elapsed_ms": 38,
       "error": ""
     },
     {
@@ -54,15 +54,15 @@
       "ok": true,
       "skipped": false,
       "bytes": 1138301,
-      "elapsed_ms": 266,
+      "elapsed_ms": 78,
       "error": ""
     },
     {
       "name": "pawdroid-free-servers",
       "ok": true,
       "skipped": false,
-      "bytes": 3888,
-      "elapsed_ms": 10,
+      "bytes": 3272,
+      "elapsed_ms": 8,
       "error": ""
     },
     {
@@ -70,15 +70,15 @@
       "ok": true,
       "skipped": false,
       "bytes": 6832,
-      "elapsed_ms": 250,
+      "elapsed_ms": 3,
       "error": ""
     },
     {
       "name": "ermaozi-get-subscribe",
       "ok": true,
       "skipped": false,
-      "bytes": 159670,
-      "elapsed_ms": 10,
+      "bytes": 159744,
+      "elapsed_ms": 9,
       "error": ""
     },
     {
@@ -86,9 +86,9 @@
       "ok": true,
       "skipped": false,
       "bytes": 6708,
-      "elapsed_ms": 258,
+      "elapsed_ms": 4,
       "error": ""
     }
   ],
-  "proxies_hash": "06200ab46c7426bf"
+  "proxies_hash": "7a1b461325042c61"
 }

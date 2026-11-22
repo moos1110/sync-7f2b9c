@@ -1,201 +1,201 @@
 {
   "c411e00bca70a6b5": {
     "ok": 2,
-    "fail": 0,
+    "fail": 1,
     "last_latency": 486,
     "last_ok_at": 1795332836
   },
   "36cab1c11c444ef8": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 519,
-    "last_ok_at": 1795332836
+    "last_latency": 390,
+    "last_ok_at": 1795364647
   },
   "43ad1c62225bb7de": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 659,
-    "last_ok_at": 1795332836
+    "last_latency": 877,
+    "last_ok_at": 1795364647
   },
   "377606dbddaae5a6": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 696,
-    "last_ok_at": 1795332836
+    "last_latency": 1132,
+    "last_ok_at": 1795364647
   },
   "f0bded6b50ac6804": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 538,
-    "last_ok_at": 1795332836
+    "last_latency": 423,
+    "last_ok_at": 1795364647
   },
   "c6871a8ad3dc6bcf": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 282,
-    "last_ok_at": 1795332836
+    "last_latency": 226,
+    "last_ok_at": 1795364647
   },
   "f620a7ddfcf6d62e": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 467,
-    "last_ok_at": 1795332836
+    "last_latency": 338,
+    "last_ok_at": 1795364647
   },
   "5eafebb62ba2f491": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 459,
-    "last_ok_at": 1795332836
+    "last_latency": 754,
+    "last_ok_at": 1795364647
   },
   "34a7c6afbc9a234c": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 482,
-    "last_ok_at": 1795332836
+    "last_latency": 303,
+    "last_ok_at": 1795364647
   },
   "267a2e31afed53ca": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 313,
-    "last_ok_at": 1795332836
+    "last_latency": 195,
+    "last_ok_at": 1795364647
   },
   "fd3b7ad80cb74613": {
     "ok": 2,
-    "fail": 0,
+    "fail": 1,
     "last_latency": 557,
     "last_ok_at": 1795332836
   },
   "c4b26c89f67907d1": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 730,
-    "last_ok_at": 1795332836
+    "last_latency": 1434,
+    "last_ok_at": 1795364647
   },
   "e55c65d7e93862bb": {
-    "ok": 1,
+    "ok": 2,
     "fail": 1,
-    "last_latency": 163,
-    "last_ok_at": 1795332351
+    "last_latency": 68,
+    "last_ok_at": 1795364647
   },
   "2f20c5d56df0684c": {
     "ok": 2,
-    "fail": 0,
+    "fail": 1,
     "last_latency": 1067,
     "last_ok_at": 1795332836
   },
   "8e953a05c701641f": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 551,
-    "last_ok_at": 1795332836
+    "last_latency": 418,
+    "last_ok_at": 1795364647
   },
   "7f47b71f1463024d": {
     "ok": 2,
-    "fail": 0,
+    "fail": 1,
     "last_latency": 261,
     "last_ok_at": 1795332836
   },
   "78cc6491bd44c435": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 290,
-    "last_ok_at": 1795332836
+    "last_latency": 2108,
+    "last_ok_at": 1795364647
   },
   "b4d0c8e033049be8": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 175,
-    "last_ok_at": 1795332836
+    "last_latency": 101,
+    "last_ok_at": 1795364647
   },
   "08a662b128209a9a": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 310,
-    "last_ok_at": 1795332836
+    "last_latency": 192,
+    "last_ok_at": 1795364647
   },
   "4eef61e92881784b": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 263,
-    "last_ok_at": 1795332836
+    "last_latency": 514,
+    "last_ok_at": 1795364647
   },
   "679e966b57b61cf5": {
     "ok": 2,
-    "fail": 0,
+    "fail": 1,
     "last_latency": 55,
     "last_ok_at": 1795332836
   },
   "c46cb24de023bcb8": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 610,
-    "last_ok_at": 1795332836
+    "last_latency": 432,
+    "last_ok_at": 1795364647
   },
   "352c8bcdc4fc4566": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 415,
-    "last_ok_at": 1795332836
+    "last_latency": 277,
+    "last_ok_at": 1795364647
   },
   "c4c72a544c69a4f8": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 663,
-    "last_ok_at": 1795332836
+    "last_latency": 927,
+    "last_ok_at": 1795364647
   },
   "0cfa9564f663b7cc": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 133,
-    "last_ok_at": 1795332836
+    "last_latency": 185,
+    "last_ok_at": 1795364647
   },
   "e4900eb34d4def6c": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 583,
-    "last_ok_at": 1795332836
+    "last_latency": 448,
+    "last_ok_at": 1795364647
   },
   "6204c28281d28bcc": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 618,
-    "last_ok_at": 1795332836
+    "last_latency": 809,
+    "last_ok_at": 1795364647
   },
   "4dafe1e130a6213e": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 636,
-    "last_ok_at": 1795332836
+    "last_latency": 812,
+    "last_ok_at": 1795364647
   },
   "7c5067e97396e970": {
     "ok": 2,
-    "fail": 0,
+    "fail": 1,
     "last_latency": 111,
     "last_ok_at": 1795332836
   },
   "347459b9894620c7": {
-    "ok": 1,
+    "ok": 2,
     "fail": 1,
-    "last_latency": 1684,
-    "last_ok_at": 1795332351
+    "last_latency": 1496,
+    "last_ok_at": 1795364647
   },
   "30da5dad3514c950": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 420,
-    "last_ok_at": 1795332836
+    "last_latency": 279,
+    "last_ok_at": 1795364647
   },
   "1603189dadd46b0a": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 2327,
-    "last_ok_at": 1795332836
+    "last_latency": 1232,
+    "last_ok_at": 1795364647
   },
   "3deac37e1bfaf32f": {
-    "ok": 2,
+    "ok": 3,
     "fail": 0,
-    "last_latency": 596,
-    "last_ok_at": 1795332836
+    "last_latency": 412,
+    "last_ok_at": 1795364647
   },
   "ee2dbe13751837cc": {
     "ok": 2,
@@ -205,25 +205,25 @@
   },
   "1e6b6e73cce8426d": {
     "ok": 2,
-    "fail": 0,
+    "fail": 1,
     "last_latency": 2588,
     "last_ok_at": 1795332836
   },
   "044c6978a30fafa8": {
     "ok": 1,
-    "fail": 1,
+    "fail": 2,
     "last_latency": 552,
     "last_ok_at": 1795332351
   },
   "0a251609ecf51c6f": {
-    "ok": 1,
+    "ok": 2,
     "fail": 0,
-    "last_latency": 1257,
-    "last_ok_at": 1795332836
+    "last_latency": 1099,
+    "last_ok_at": 1795364647
   },
   "7daa6c92123416df": {
     "ok": 1,
-    "fail": 0,
+    "fail": 1,
     "last_latency": 2724,
     "last_ok_at": 1795332836
   },
@@ -235,20 +235,242 @@
   },
   "b563db5ecf7dd288": {
     "ok": 1,
-    "fail": 0,
+    "fail": 1,
     "last_latency": 2049,
     "last_ok_at": 1795332836
   },
   "3bb46c3a410be797": {
-    "ok": 1,
+    "ok": 2,
     "fail": 0,
-    "last_latency": 555,
-    "last_ok_at": 1795332836
+    "last_latency": 763,
+    "last_ok_at": 1795364647
   },
   "42f8ee95956e6f84": {
+    "ok": 2,
+    "fail": 0,
+    "last_latency": 1411,
+    "last_ok_at": 1795364647
+  },
+  "3b49fcdb3b7c33fb": {
     "ok": 1,
     "fail": 0,
-    "last_latency": 1228,
-    "last_ok_at": 1795332836
+    "last_latency": 211,
+    "last_ok_at": 1795364647
+  },
+  "1e847578b554a793": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 1716,
+    "last_ok_at": 1795364647
+  },
+  "9eab054027b64917": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 896,
+    "last_ok_at": 1795364647
+  },
+  "2fa0ec90feadee4b": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 312,
+    "last_ok_at": 1795364647
+  },
+  "1abab0c7d0053f30": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 2465,
+    "last_ok_at": 1795364647
+  },
+  "41842a10e1e2d477": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 295,
+    "last_ok_at": 1795364647
+  },
+  "56118446fa99b960": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 332,
+    "last_ok_at": 1795364647
+  },
+  "f3a0972d4c73dc4a": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 222,
+    "last_ok_at": 1795364647
+  },
+  "fe22221d572e2673": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 577,
+    "last_ok_at": 1795364647
+  },
+  "dbb8f336836002aa": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 611,
+    "last_ok_at": 1795364647
+  },
+  "4965ae632cae2901": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 368,
+    "last_ok_at": 1795364647
+  },
+  "3c08ab7b9618eb0b": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 1141,
+    "last_ok_at": 1795364647
+  },
+  "3c8a16cc507d6096": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 912,
+    "last_ok_at": 1795364647
+  },
+  "87077105a76967ca": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 331,
+    "last_ok_at": 1795364647
+  },
+  "b59c7009b1b3cea9": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 2435,
+    "last_ok_at": 1795364647
+  },
+  "71f20af2d33ab24a": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 977,
+    "last_ok_at": 1795364647
+  },
+  "5f9d781074981238": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 371,
+    "last_ok_at": 1795364647
+  },
+  "b7faac727f0634a5": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 1685,
+    "last_ok_at": 1795364647
+  },
+  "2637a657b386f3f4": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 574,
+    "last_ok_at": 1795364647
+  },
+  "ccb0b6b16303e7d8": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 906,
+    "last_ok_at": 1795364647
+  },
+  "f96a103df56a24fa": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 474,
+    "last_ok_at": 1795364647
+  },
+  "3dd2e5ed4e480f4f": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 452,
+    "last_ok_at": 1795364647
+  },
+  "352d0ac9083139be": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 686,
+    "last_ok_at": 1795364647
+  },
+  "57f2bbf2832666a1": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 1082,
+    "last_ok_at": 1795364647
+  },
+  "fe1683b1a79b77a0": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 912,
+    "last_ok_at": 1795364647
+  },
+  "6979c34cd590e5e6": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 397,
+    "last_ok_at": 1795364647
+  },
+  "1d42c851fa6fa578": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 617,
+    "last_ok_at": 1795364647
+  },
+  "a7e4be4da18772f5": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 1377,
+    "last_ok_at": 1795364647
+  },
+  "8408e61967ed0d7a": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 105,
+    "last_ok_at": 1795364647
+  },
+  "2a6b4a3d3ca7e852": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 249,
+    "last_ok_at": 1795364647
+  },
+  "c97a8ded4f73407d": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 309,
+    "last_ok_at": 1795364647
+  },
+  "38c6b8798242b4d6": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 1625,
+    "last_ok_at": 1795364647
+  },
+  "776fc060101bfe2c": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 868,
+    "last_ok_at": 1795364647
+  },
+  "1374c82d5bccc52c": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 889,
+    "last_ok_at": 1795364647
+  },
+  "aff65456f7fb0322": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 78,
+    "last_ok_at": 1795364647
+  },
+  "071c3040b0b01aaf": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 116,
+    "last_ok_at": 1795364647
+  },
+  "22585e74e6a929e2": {
+    "ok": 1,
+    "fail": 0,
+    "last_latency": 1127,
+    "last_ok_at": 1795364647
   }
 }

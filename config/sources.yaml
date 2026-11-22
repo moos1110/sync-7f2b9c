@@ -1,0 +1,56 @@
+# 节点来源配置
+# type: auto 自动嗅探 / clash 为 YAML / uri 为每行一个代理 URI / base64 为整段 base64
+# min_interval_hours: 该来源的最小抓取间隔，未到期则跳过（复用上次数据不参与本轮）
+settings:
+  default_timeout: 25
+  default_type: auto
+  default_min_interval_hours: 0
+
+sources:
+  - name: barabama-merged-yaml
+    url: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/merged.yaml
+    type: clash
+    enabled: true
+    timeout: 30
+
+  - name: barabama-merged-uri
+    url: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/merged.txt
+    type: uri
+    enabled: true
+    timeout: 30
+
+  - name: barabama-clashmeta
+    url: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.yaml
+    type: clash
+    enabled: true
+    timeout: 30
+
+  - name: mahdibland-sub-merge
+    url: https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt
+    type: uri
+    enabled: true
+    timeout: 30
+
+  - name: pawdroid-free-servers
+    url: https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+    type: base64
+    enabled: true
+    timeout: 20
+
+  - name: ripaojiedian-freenode
+    url: https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
+    type: base64
+    enabled: true
+    timeout: 20
+
+  - name: ermaozi-get-subscribe
+    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+    type: clash
+    enabled: true
+    timeout: 25
+
+  - name: freefq-free
+    url: https://raw.githubusercontent.com/freefq/free/master/v2
+    type: base64
+    enabled: true
+    timeout: 20

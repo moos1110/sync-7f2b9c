@@ -1,0 +1,45 @@
+runtime:
+  # 单节点连接超时（秒）
+  connect_timeout: 8
+  # 检测最大并发（同时运行的 mihomo 实例数）
+  max_concurrency: 20
+  # 单节点失败重试次数
+  retries: 1
+  # 最大允许延迟（毫秒），超过则丢弃
+  max_latency_ms: 3000
+  # 每轮进入检测的候选节点上限
+  max_candidates: 300
+  # 最终保留节点上限
+  max_keep: 100
+  # 真实代理探测目标（必须返回 204/200）
+  test_url: "https://www.gstatic.com/generate_204"
+  # 客户端节点健康检查周期（秒）
+  health_check_interval: 300
+  # 健康检查容差（毫秒）
+  health_check_tolerance: 50
+  # 安全阀：有效节点低于该值时整轮作废，不覆盖旧配置
+  min_valid_nodes: 5
+  # 单个 mihomo 实例启动等待上限（秒）
+  startup_timeout: 6
+  # 历史成绩文件
+  history_file: "state/history.json"
+
+scoring:
+  # 综合得分：延迟权重 + 成功率权重（两者之和建议为 1）
+  latency_weight: 0.6
+  success_weight: 0.4
+  # 无历史记录时的默认成功率
+  default_success_rate: 0.5
+  # 延迟归一化上限（毫秒）
+  latency_norm_ms: 3000
+
+output:
+  dir: "output"
+  clash: "clash.yaml"
+  proxies: "proxies.yaml"
+  report: "report.json"
+
+geo:
+  # 出口地区识别默认关闭，避免额外的第三方请求
+  enabled: false
+  url: "https://www.cloudflare.com/cdn-cgi/trace"

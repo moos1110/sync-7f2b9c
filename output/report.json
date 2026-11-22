@@ -1,0 +1,94 @@
+{
+  "status": "ok",
+  "started_at": "2026-11-22T07:23:45Z",
+  "finished_at": "2026-11-22T07:25:51Z",
+  "duration_sec": 126.1,
+  "sources_total": 8,
+  "sources_ok": 8,
+  "fetched_nodes": 9530,
+  "parsed_nodes": 9530,
+  "deduped_nodes": 7038,
+  "duplicates_removed": 2492,
+  "candidates": 300,
+  "checked_nodes": 300,
+  "alive_nodes": 36,
+  "kept_nodes": 36,
+  "avg_latency_ms": 541,
+  "protocols": {
+    "vless": 11,
+    "ss": 9,
+    "vmess": 6,
+    "hysteria2": 5,
+    "trojan": 5
+  },
+  "config_valid": true,
+  "mihomo_version": "Mihomo Meta v1.19.34 linux amd64 with go1.26.11 Wed Nov 11 06:48:42 UTC 2026",
+  "failure_reasons": [],
+  "sources": [
+    {
+      "name": "barabama-merged-yaml",
+      "ok": true,
+      "skipped": false,
+      "bytes": 897754,
+      "elapsed_ms": 196,
+      "error": ""
+    },
+    {
+      "name": "barabama-merged-uri",
+      "ok": true,
+      "skipped": false,
+      "bytes": 410915,
+      "elapsed_ms": 156,
+      "error": ""
+    },
+    {
+      "name": "barabama-clashmeta",
+      "ok": true,
+      "skipped": false,
+      "bytes": 546314,
+      "elapsed_ms": 15,
+      "error": ""
+    },
+    {
+      "name": "mahdibland-sub-merge",
+      "ok": true,
+      "skipped": false,
+      "bytes": 1138301,
+      "elapsed_ms": 176,
+      "error": ""
+    },
+    {
+      "name": "pawdroid-free-servers",
+      "ok": true,
+      "skipped": false,
+      "bytes": 3888,
+      "elapsed_ms": 13,
+      "error": ""
+    },
+    {
+      "name": "ripaojiedian-freenode",
+      "ok": true,
+      "skipped": false,
+      "bytes": 6832,
+      "elapsed_ms": 85,
+      "error": ""
+    },
+    {
+      "name": "ermaozi-get-subscribe",
+      "ok": true,
+      "skipped": false,
+      "bytes": 159670,
+      "elapsed_ms": 13,
+      "error": ""
+    },
+    {
+      "name": "freefq-free",
+      "ok": true,
+      "skipped": false,
+      "bytes": 6708,
+      "elapsed_ms": 75,
+      "error": ""
+    }
+  ],
+  "proxies_hash": "8410b430dcc7511b"
+}

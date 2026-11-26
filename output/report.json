@@ -1,25 +1,25 @@
 {
   "status": "ok",
-  "started_at": "2026-11-25T14:32:35Z",
-  "finished_at": "2026-11-25T14:33:52Z",
-  "duration_sec": 77.2,
+  "started_at": "2026-11-26T00:29:59Z",
+  "finished_at": "2026-11-26T00:31:05Z",
+  "duration_sec": 66.3,
   "sources_total": 8,
   "sources_ok": 8,
-  "fetched_nodes": 10148,
-  "parsed_nodes": 10148,
+  "fetched_nodes": 10162,
+  "parsed_nodes": 10162,
   "deduped_nodes": 7578,
-  "duplicates_removed": 2570,
+  "duplicates_removed": 2584,
   "candidates": 300,
   "checked_nodes": 300,
-  "alive_nodes": 147,
+  "alive_nodes": 188,
   "kept_nodes": 100,
-  "avg_latency_ms": 454,
+  "avg_latency_ms": 261,
   "protocols": {
-    "trojan": 13,
-    "hysteria2": 13,
-    "ss": 41,
-    "vmess": 20,
-    "vless": 13
+    "trojan": 26,
+    "ss": 37,
+    "vmess": 18,
+    "hysteria2": 2,
+    "vless": 17
   },
   "config_valid": true,
   "mihomo_version": "Mihomo Meta v1.19.34 linux amd64 with go1.26.11 Wed Nov 11 06:48:42 UTC 2026",
@@ -30,7 +30,7 @@
       "ok": true,
       "skipped": false,
       "bytes": 1053806,
-      "elapsed_ms": 211,
+      "elapsed_ms": 71,
       "error": ""
     },
     {
@@ -38,7 +38,7 @@
       "ok": true,
       "skipped": false,
       "bytes": 557812,
-      "elapsed_ms": 144,
+      "elapsed_ms": 9,
       "error": ""
     },
     {
@@ -46,7 +46,7 @@
       "ok": true,
       "skipped": false,
       "bytes": 546314,
-      "elapsed_ms": 11,
+      "elapsed_ms": 6,
       "error": ""
     },
     {
@@ -54,15 +54,15 @@
       "ok": true,
       "skipped": false,
       "bytes": 1112280,
-      "elapsed_ms": 149,
+      "elapsed_ms": 11,
       "error": ""
     },
     {
       "name": "pawdroid-free-servers",
       "ok": true,
       "skipped": false,
-      "bytes": 1772,
-      "elapsed_ms": 10,
+      "bytes": 3420,
+      "elapsed_ms": 6,
       "error": ""
     },
     {
@@ -70,15 +70,15 @@
       "ok": true,
       "skipped": false,
       "bytes": 6440,
-      "elapsed_ms": 10,
+      "elapsed_ms": 44,
       "error": ""
     },
     {
       "name": "ermaozi-get-subscribe",
       "ok": true,
       "skipped": false,
-      "bytes": 175808,
-      "elapsed_ms": 71,
+      "bytes": 178703,
+      "elapsed_ms": 8,
       "error": ""
     },
     {
@@ -86,9 +86,9 @@
       "ok": true,
       "skipped": false,
       "bytes": 6708,
-      "elapsed_ms": 13,
+      "elapsed_ms": 3,
       "error": ""
     }
   ],
-  "proxies_hash": "09a55acfb5977b9d"
+  "proxies_hash": "0fa2c8dfe4c512da"
 }

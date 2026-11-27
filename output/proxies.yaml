@@ -1,47 +1,29 @@
 # 由 auto-free-proxy-pool 自动生成，请勿手工修改
 proxies:
-- name: ❓Other_14|200KB/s|M003-260806 [c9fe0ee09
-  client-fingerprint: chrome
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- name: 🇦🇺AU_5|583KB/s|R002-260618 [3c9bb73cc32c
+  type: hysteria2
+  server: 152.67.115.203
   port: 443
-  server: 216.152.147.85
-  skip-cert-verify: false
-  sni: cdn.connectingpeoplewithgreatjobs.com
-  sub_tag: M003-260806
-  type: trojan
+  password: 633bc3be486b646190661ac2387c150a
   udp: true
-  network: tcp
-- name: ❓Other_22|1.2MB/s|A004-260618 [1d1916739
-  type: trojan
-  server: 170.101.101.19
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+- name: 🇧🇬BG_11|1.6MB/s|A004-260618 [f299fa145e1
+  type: vless
+  server: 195.123.226.21
   port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  uuid: 6589c320-db68-43cd-a273-b46299bab355
   udp: true
-  sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
+  flow: xtls-rprx-vision
+  tls: true
+  servername: gateway.icloud.com
   client-fingerprint: chrome
-- type: ss
-  name: '❓未知丨yoyapai.com #6'
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇦CA_14|1.3MB/s|M002-260618 [633645a129c
-  alterId: 0
-  cipher: auto
-  port: 18000
-  server: 23.162.200.198
-  skip-cert-verify: false
-  sub_tag: M002-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
+  reality-opts:
+    public-key: rabtI-ymNXBUvYYRwAw8DiR-1pdP7U0WPIaCBHEkgzo
+    short-id: 77bb0d07bddbc832
   network: tcp
-  packet-encoding: xudp
 - name: 🇨🇦CA_3|1.3MB/s|M002-260618 [96a7a771fc9c
   alterId: 0
   cipher: auto
@@ -73,6 +55,16 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
+- name: 🇨🇭CH_1|4.0MB/s|R002-260618 [78895aafc4f1
+  type: hysteria2
+  server: 152.67.75.161
+  port: 443
+  password: 3a702d4d1de4949005d8431220e040fb
+  udp: true
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
 - name: 🇨🇭CH_9|2.9MB/s|M003-260806 [72338324c8cc
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -81,20 +73,27 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
+- name: 🇩🇪DE_76|3.0MB/s|B007-260618 [5a56b17d05e
+  alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  network: tcp
+  port: 1270
+  server: 193.108.117.61
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+  packet-encoding: xudp
+  servername: xmfhlpy.com
 - name: 🇪🇸ES_14|4.2MB/s|M003-260806 [95d4dcda074
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 62.93.179.97
   sub_tag: M003-260806
-  type: ss
-  udp: true
-- name: 🇪🇸ES_16|2.9MB/s|M001-260618 [c60aac1f3b8
-  cipher: aes-256-cfb
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
-  server: 5.188.181.201
-  sub_tag: M001-260618
   type: ss
   udp: true
 - name: 🇪🇸ES_7|4.1MB/s|M003-260806 [f6618bfd7595
@@ -105,44 +104,80 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 🇫🇷FR_64|756KB/s|A004-260618 [7379c3bd291
-  client-fingerprint: chrome
-  network: ws
-  port: 2096
-  server: saas.sin.fan
-  sub_tag: A004-260618
-  tls: true
-  type: vless
+- name: 🇪🇸ES_9|2.7MB/s|M003-260806 [63b5a5dd5718
+  cipher: aes-256-cfb
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 5.188.181.201
+  sub_tag: M003-260806
+  type: ss
   udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp13.1145678.xyz
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
-    path: /index/content
+- name: 🇫🇷FR_35|11.8MB/s|S004-260618 [4eff0afd12
+  type: vless
+  server: 62.210.91.10
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  network: tcp
+- name: 🇫🇷FR_58|3.4MB/s|M003-260806 [6a4af708c88
+  alterId: 0
+  cipher: auto
+  network: tcp
+  port: 1270
+  server: 162.19.82.57
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
   packet-encoding: xudp
-  servername: vp13.1145678.xyz
-- name: 🇫🇷FR_87|2.0MB/s|B007-260618 [da5f33cf00e
-  type: vless
-  server: 185.18.250.2
-  port: 443
-  uuid: 10997f19-2951-4a9b-a26f-611a6bd72d02
-  udp: true
+  servername: xmfhlpy.com
+- name: 🇫🇷FR_97|2.6MB/s|K001-260618 [1c272896dc0
+  alterId: 0
+  cipher: auto
+  network: tcp
+  port: 1270
+  server: 172.99.189.239
+  skip-cert-verify: false
+  sub_tag: K001-260618
   tls: true
-  servername: worker3.sicoro1729.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: worker3.sicoro1729.workers.dev
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+  packet-encoding: xudp
+  servername: xmfhlpy.com
 - name: 🇬🇧GB_10|3.6MB/s|M003-260806 [a5dda399995
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 38.114.120.221
   sub_tag: M003-260806
+  type: ss
+  udp: true
+- name: 🇬🇧GB_11|2.0MB/s|A004-260618 [b565fc18d33
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.46.199
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- name: 🇬🇧GB_17|3.0MB/s|A004-260618 [8950c53841f
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.46.214
+  sub_tag: A004-260618
   type: ss
   udp: true
 - name: 🇬🇧GB_18|2.7MB/s|B007-260618 [2d029e8c275
@@ -168,39 +203,94 @@ proxies:
   sub_tag: B007-260618
   type: ss
   udp: true
-- name: 🇬🇧GB_7|3.8MB/s [a1915d230d8e]
+- name: 🇬🇧GB_3|4.1MB/s|A004-260618 [65ca694663d7
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 146.70.61.37
+  server: 98.98.207.163
+  sub_tag: A004-260618
   type: ss
   udp: true
-- name: 🇭🇰HK_39|283KB/s|A001-260618 [7de84fb24b7
-  type: hysteria2
-  server: 152.32.254.68
-  port: 5010
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+- name: 🇬🇧GB_4|5.1MB/s|M003-260806 [82eac4fd4beb
+  type: vless
+  server: 136.176.68.34
+  port: 443
+  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
   udp: true
-  sni: nas.aizhzo.com
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-- name: 🇮🇹IT_11|4.4MB/s|S001-260618 [8d75bbbf447
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.164.175.81
-  sub_tag: S001-260618
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Jcm0TjP_kw-KmJoiG5EGyY5sQ9RGeqlX9Ajd3ZCnSAo
+    short-id: a6040129ad7f4b74
+  network: tcp
+- name: 🇭🇰HK_10|574KB/s|A004-260618 [c7cdff0ce8c
+  type: hysteria2
+  server: 202.146.222.29
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  udp: true
+  sni: httpst.mewangcai2
+  skip-cert-verify: true
+- name: 🇭🇰HK_11|540KB/s|A004-260618 [bd5d86b7f02
+  type: hysteria2
+  server: 202.146.222.174
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  udp: true
+  sni: https://t.me/wangcai2🇨🇳
+  skip-cert-verify: true
+- name: 🇭🇰HK_32|702KB/s|A004-260618 [e890415d1e9
+  type: hysteria2
+  server: 202.146.222.29
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  udp: true
+  sni: https://t.me/wangcai2üá®üá
+  skip-cert-verify: true
+- name: 🇭🇰HK_49|575KB/s|A004-260618 [2fe171e3d4c
+  type: hysteria2
+  server: 202.146.222.29
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  udp: true
+  sni: https%3a%2f%2ft.me%2fwangcai2%d1%80%d2%b9%d2%af%d1%91%d1%80%d2%b9%d2%af%d1%96
+  skip-cert-verify: true
+- name: 🇭🇰HK_6|702KB/s|A004-260618 [3eb6ea473306
+  type: hysteria2
+  server: 202.146.222.29
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  udp: true
+  sni: https://t.me/wangcai2üáüá
+  skip-cert-verify: true
+- name: 🇮🇹IT_20|1.9MB/s|A004-260618 [59c0745f720
+  cipher: aes-256-cfb
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  server: 91.201.65.122
+  sub_tag: A004-260618
   type: ss
   udp: true
 - type: ss
-  name: '🇮🇹IT意大利丨yoyapai.com #3'
+  name: '🇮🇹_IT_意大利_IPV4 #2'
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- type: ss
+  name: '🇮🇹_IT_意大利_IPV4 #3'
   server: 202.50.253.90
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-  udp: true
   tls: false
   skip-cert-verify: false
+  udp: true
 - name: 🇯🇵JP_11|627KB/s|A001-260618 [f5ed8a5644b
   cipher: aes-128-gcm
   password: shadowsocks
@@ -209,14 +299,6 @@ proxies:
   sub_tag: A001-260618
   type: ss
   udp: true
-- name: 🇯🇵JP_19|139KB/s|A004-260618 [87746b95041
-  type: hysteria2
-  server: 8.211.175.236
-  port: 8443
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  udp: true
-  sni: bing.com
-  skip-cert-verify: true
 - name: 🇯🇵JP_24|305KB/s|M003-260806 [122c608b757
   client-fingerprint: chrome
   encryption: none
@@ -231,17 +313,6 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: kuruish.org
-- name: 🇯🇵JP_6|288KB/s|M003-260806 [6ca97c6a6b26
-  type: vless
-  server: 155.248.175.201
-  port: 23169
-  uuid: 3eb053cb-d6f8-4b31-8180-222e1cc6f8ff
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: djj.zjlo.top
-  client-fingerprint: firefox
-  network: tcp
 - name: 🇯🇵JP_8|625KB/s|M003-260806 [6d9b68ca25ca
   type: vless
   server: 158.101.151.157
@@ -256,6 +327,62 @@ proxies:
     public-key: 99eQkMBHqOEKororOWKFlmH8M0o9VaVpV9w1vQIxhz8
     short-id: 684c7531e599dec0
   network: tcp
+- name: 🇰🇷KR_12|522KB/s|A004-260618 [cb31b82c165
+  type: hysteria2
+  server: 152.67.200.82
+  port: 50160
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  udp: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇰🇷KR_8|445KB/s|A004-260618 [d5f4621ba03f
+  type: hysteria2
+  server: 152.67.200.82
+  port: 50160
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  udp: true
+  sni: speedtest.tinkoff.ru
+  skip-cert-verify: true
+- name: 🇰🇷KR_9|556KB/s|A004-260618 [f93d03f31300
+  type: hysteria2
+  server: 152.67.200.82
+  port: 50160
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  udp: true
+  sni: t.me
+  skip-cert-verify: true
+- name: 🇱🇹LT_6|2.0MB/s|A004-260618 [6fbcb073e15b
+  cipher: aes-256-cfb
+  password: 37Z4TFCYhfxcpc9Q
+  port: 9086
+  server: 195.238.126.20
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- name: 🇱🇹LT_7|1.7MB/s|A004-260618 [a6c0aa7ced73
+  cipher: aes-256-cfb
+  password: y9VURyNzJWNRYEGQ
+  port: 9008
+  server: 195.238.126.20
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- name: 🇱🇻LV_4|976KB/s|X001-260618 [09dbc4b45067
+  cipher: aes-256-cfb
+  password: Yg4MbdXFQ9HFFVY6
+  port: 9034
+  server: 185.135.86.175
+  sub_tag: X001-260618
+  type: ss
+  udp: true
+- name: 🇱🇻LV_9|1.9MB/s|X001-260618 [2f1a41cf7870
+  cipher: aes-256-cfb
+  password: 45xgMgm386pjWjTx
+  port: 9082
+  server: 185.135.86.175
+  sub_tag: X001-260618
+  type: ss
+  udp: true
 - name: 🇳🇱NL_101|7.7MB/s [7c18ef256e3c]
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -300,14 +427,6 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 🇳🇱NL_135|5.1MB/s|A004-260618 [5876974a2e
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.212
-  sub_tag: A004-260618
-  type: ss
-  udp: true
 - name: 🇳🇱NL_141|7.7MB/s|B007-260618 [07c23c58b4
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -330,16 +449,6 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: 🇳🇱NL_179|433KB/s|M003-260806 [5bc30a5772
-  type: hysteria2
-  server: 51.15.19.206
-  port: 8443
-  password: HowdyHysteria2023w0W
-  udp: true
-  sni: vkvd127.mycdn.me
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: HysteriaHowdy
 - name: 🇳🇱NL_20|6.5MB/s|A003-260618 [cb6ae96da10
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -348,16 +457,6 @@ proxies:
   sub_tag: A003-260618
   type: ss
   udp: true
-- name: 🇳🇱NL_216|367KB/s|A001-260618 [f5f49eca01
-  type: hysteria2
-  server: 51.15.19.206
-  port: 8443
-  password: HowdyHysteria2023w0W
-  udp: true
-  sni: hysteria.udpgw.co
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: HysteriaHowdy
 - name: 🇳🇱NL_2|8.1MB/s|M001-260618 [f241e5428cf7
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -374,14 +473,27 @@ proxies:
   sub_tag: A003-260618
   type: ss
   udp: true
-- name: 🇳🇱NL_3|4.8MB/s|A003-260618 [041f865582a1
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
-  sub_tag: A003-260618
-  type: ss
+- name: 🇳🇱NL_48|4.0MB/s|B007-260618 [17d40f4e692
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fingerprint: 67fa1e374feaeb232157317d6ace682475cb1a826e0cf8657151a254681aed62
+  network: xhttp
+  port: 443
+  server: 94.241.172.107
+  sub_tag: B007-260618
+  tls: true
+  type: vless
   udp: true
+  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+  xhttp-opts:
+    mode: packet-up
+    path: /assets/nl02/
+  xudp: true
+  packet-encoding: xudp
+  servername: 94.241.172.107
 - name: 🇳🇱NL_57|6.8MB/s|C002-260622 [bd938769ebf
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -458,6 +570,14 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
+- name: 🇸🇬SG_10|882KB/s|A004-260618 [9fe74a86c27
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 128.1.186.73
+  sub_tag: A004-260618
+  type: ss
+  udp: true
 - name: 🇸🇬SG_21|938KB/s|C002-260622 [9a70c08dc29
   alterId: 0
   cipher: auto
@@ -472,29 +592,6 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
   packet-encoding: xudp
-- name: 🇸🇬SG_27|898KB/s|A004-260618 [db1c7476712
-  alterId: 0
-  cipher: auto
-  network: tcp
-  port: 18000
-  server: 149.88.23.207
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-  packet-encoding: xudp
-  servername: --v2raynplus--v2raynplus--v2raynplus--
-- name: 🇹🇼TW_19|580KB/s|A004-260618 [ae6063e8a79
-  type: hysteria2
-  server: vpn-tw-002.fastervpn.world
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  udp: true
-  sni: t.me
-  skip-cert-verify: true
 - name: 🇹🇼TW_1|561KB/s|A004-260618 [2bba6a9fa1cf
   type: hysteria2
   server: 103.115.109.49
@@ -502,6 +599,14 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   udp: true
   sni: https://t.me/wangcai2🇨🇳
+  skip-cert-verify: true
+- name: 🇹🇼TW_2|91KB/s|A004-260618 [ae6063e8a798]
+  type: hysteria2
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  udp: true
+  sni: t.me
   skip-cert-verify: true
 - name: 🇹🇼TW_30|522KB/s|C002-260622 [e30b5c30cec
   type: hysteria2
@@ -527,6 +632,38 @@ proxies:
   udp: true
   sni: https%3a%2f%2ft.me%2fwangcai2
   skip-cert-verify: true
+- name: '🇺🇸 机场推荐:dafei.de 美国 15_IPV4 #2'
+  type: vmess
+  server: 172.67.190.164
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: '🇺🇸 机场推荐:dafei.de 美国 89_IPV4 #2'
+  type: vmess
+  server: 188.114.99.137
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
 - name: 🇺🇸US_104|544KB/s|B007-260618 [a7fc2733b3
   type: vless
   server: 45.61.186.3
@@ -555,14 +692,35 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   network: tcp
-- name: 🇺🇸US_151|1.5MB/s|M003-260806 [806a2a37cd
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 216.106.178.169
-  sub_tag: M003-260806
-  type: ss
+- name: 🇺🇸US_159|950KB/s|A004-260618 [18341515ef
+  alterId: 0
+  cipher: auto
+  network: tcp
+  port: 18000
+  server: 38.91.107.49
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: vmess
   udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+  packet-encoding: xudp
+  servername: guanwang.awsno.com
+- name: 🇺🇸US_15|223KB/s|B007-260618 [f69992d0187
+  alterId: 0
+  cipher: aes-128-gcm
+  network: tcp
+  port: 18000
+  server: 67.220.95.3
+  skip-cert-verify: false
+  sub_tag: B007-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+  packet-encoding: xudp
 - name: 🇺🇸US_15|843KB/s|A004-260618 [1b7912caedd
   alterId: 0
   cipher: auto
@@ -578,17 +736,20 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: 84.17.41.2
-- name: 🇺🇸US_165|1.4MB/s|M003-260806 [056953129a
-  client-fingerprint: chrome
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.122.7
-  skip-cert-verify: true
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com%23%F0%9F%92%AB65%40oneclickvpnkeys
-  sub_tag: M003-260806
-  type: trojan
+- name: 🇺🇸US_163|1.1MB/s|C002-260622 [e4a9150c55
+  alterId: 0
+  cipher: auto
+  network: raw
+  port: 18000
+  server: 38.110.1.246
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
   udp: true
-  network: tcp
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+  packet-encoding: xudp
 - name: 🇺🇸US_166|763KB/s|M003-260806 [af8aa7ae82
   alpn:
   - ''
@@ -606,6 +767,20 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: server22.9966338.xyz
+- name: 🇺🇸US_172|327KB/s|A004-260618 [f953bd1831
+  type: vless
+  server: 169.40.42.89
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  network: tcp
 - name: 🇺🇸US_183|909KB/s|M002-260618 [0a2d305ce0
   type: vless
   server: 15.204.97.206
@@ -673,17 +848,6 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 🇺🇸US_222|1.4MB/s|C002-260622 [45efb8c3c3
-  client-fingerprint: chrome
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.122.7
-  skip-cert-verify: true
-  sni: 66.163.122.7
-  sub_tag: C002-260622
-  type: trojan
-  udp: true
 - name: 🇺🇸US_232|1.3MB/s [44410bbbcb07]
   cipher: aes-128-gcm
   password: shadowsocks
@@ -705,6 +869,21 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
+- name: 🇺🇸US_252|1.8MB/s|S004-260618 [aa35f31f2c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  port: 18000
+  server: 67.220.85.46
+  skip-cert-verify: false
+  sub_tag: S004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+  packet-encoding: xudp
+  servername: community.fastly.steamstatic.com
 - name: 🇺🇸US_27|1.7MB/s|A004-260618 [bd1e79add0e
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -713,17 +892,6 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 🇺🇸US_289|1.4MB/s|M003-260806 [f0c4c6699e
-  client-fingerprint: chrome
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.122.46
-  skip-cert-verify: false
-  sni: searchnationwidecareerchangehelperandguidancetoday.com
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-  network: tcp
 - name: 🇺🇸US_305|1.3MB/s|M003-260806 [c778053e36
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -732,72 +900,6 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 🇺🇸US_320|1.2MB/s|A004-260618 [1314200dec
-  type: trojan
-  server: 216.152.155.176
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: blog.nextjobopportunityandclaimyouridealrole.com
-  client-fingerprint: chrome
-- name: 🇺🇸US_345|1.1MB/s|C002-260622 [13fd7a72c1
-  type: trojan
-  server: 66.163.122.7
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com#💫65@oneclickvpnkeys
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: 🇺🇸US_346|850KB/s|M003-260806 [1cede79596
-  type: trojan
-  server: 66.163.122.26
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: blog.searchnationwidecareerchangehelperandguidancetoday.com
-  client-fingerprint: chrome
-- name: 🇺🇸US_346|850KB/s|M003-260806 [d60ee2c3d5
-  client-fingerprint: chrome
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.122.26
-  skip-cert-verify: false
-  sni: blog.searchnationwidecareerchangehelperandguidancetoday.com
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-- name: 🇺🇸US_364|867KB/s|M003-260806 [6568f73d06
-  client-fingerprint: chrome
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 167.88.61.198
-  skip-cert-verify: false
-  sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-  network: tcp
-- name: 🇺🇸US_366|1.5MB/s|A004-260618 [361f306ced
-  client-fingerprint: chrome
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.122.25
-  skip-cert-verify: false
-  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
-  sub_tag: A004-260618
-  type: trojan
-  udp: true
-- name: 🇺🇸US_366|1.5MB/s|A004-260618 [c2cfafdbef
-  type: trojan
-  server: 66.163.122.25
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
-  client-fingerprint: chrome
 - name: 🇺🇸US_38|1.3MB/s [60b18e513b09]
   cipher: aes-128-gcm
   password: shadowsocks
@@ -805,32 +907,6 @@ proxies:
   server: 156.146.38.168
   type: ss
   udp: true
-- name: 🇺🇸US_392|1.4MB/s|A004-260618 [506d241b2c
-  type: trojan
-  server: 170.101.101.67
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
-  client-fingerprint: chrome
-- name: 🇺🇸US_404|1.1MB/s|M003-260806 [1d2da70320
-  client-fingerprint: chrome
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.156.65
-  skip-cert-verify: true
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-- name: 🇺🇸US_429|744KB/s|M003-260806 [a6b4ef8952
-  type: trojan
-  server: 167.88.61.20
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: api.browseseniorrolesandenhanceyourcareertoday.com
-  client-fingerprint: chrome
 - name: 🇺🇸US_431|886KB/s|K001-260618 [916fceeb67
   alterId: 0
   cipher: auto
@@ -846,40 +922,6 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: xmfhlpy.com
-- name: 🇺🇸US_439|1.5MB/s|M003-260806 [d13b4ba9d9
-  type: trojan
-  server: 66.163.122.81
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: 66.163.122.81
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: 🇺🇸US_449|1.0MB/s|R002-260618 [78057ee782
-  type: trojan
-  server: 216.152.155.158
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: resources.nextjobopportunityandclaimyouridealrole.com
-- name: 🇺🇸US_467|221KB/s|M003-260806 [b32ae9e74b
-  client-fingerprint: chrome
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.122.81
-  skip-cert-verify: true
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-  network: tcp
-- name: 🇺🇸US_471|1.2MB/s|M003-260806 [56a94ad960
-  type: trojan
-  server: 216.152.155.59
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: api.nextjobopportunityandclaimyouridealrole.com
-  client-fingerprint: chrome
 - name: 🇺🇸US_476|1.0MB/s|B007-260618 [66ac274432
   alterId: 0
   cipher: auto
@@ -910,17 +952,6 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: xmfhlpy.com
-- name: 🇺🇸US_485|1.0MB/s|M003-260806 [ad2a6835fb
-  client-fingerprint: chrome
-  network: ws#🍪100@oneclickvpnkeys
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.155.59
-  skip-cert-verify: true
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com#🍪99@oneclickvpnkeystrojan://8deb189a-3aed-4865-843b-b72dae954c46@ctcc.cloudflare.seeck.cn:443?host=api.85s.me
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
 - name: 🇺🇸US_495|1.0MB/s|K001-260618 [52f0e9977e
   alterId: 0
   cipher: auto
@@ -1030,3 +1061,19 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: xmfhlpy.com
+- name: '🇺🇸_US_美国_IPV4 #10'
+  type: vmess
+  server: 104.18.42.163
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com

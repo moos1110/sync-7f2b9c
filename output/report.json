@@ -1,25 +1,25 @@
 {
   "status": "ok",
-  "started_at": "2026-11-27T13:58:05Z",
-  "finished_at": "2026-11-27T13:59:23Z",
-  "duration_sec": 77.3,
+  "started_at": "2026-11-28T00:06:07Z",
+  "finished_at": "2026-11-28T00:07:05Z",
+  "duration_sec": 58.4,
   "sources_total": 8,
   "sources_ok": 8,
-  "fetched_nodes": 9217,
-  "parsed_nodes": 9217,
-  "deduped_nodes": 7069,
-  "duplicates_removed": 2148,
+  "fetched_nodes": 9285,
+  "parsed_nodes": 9285,
+  "deduped_nodes": 7105,
+  "duplicates_removed": 2180,
   "candidates": 300,
   "checked_nodes": 300,
-  "alive_nodes": 138,
+  "alive_nodes": 174,
   "kept_nodes": 100,
-  "avg_latency_ms": 441,
+  "avg_latency_ms": 380,
   "protocols": {
-    "hysteria2": 15,
-    "vless": 17,
-    "vmess": 24,
-    "ss": 43,
-    "trojan": 1
+    "trojan": 2,
+    "vless": 23,
+    "ss": 46,
+    "vmess": 25,
+    "hysteria2": 4
   },
   "config_valid": true,
   "mihomo_version": "Mihomo Meta v1.19.34 linux amd64 with go1.26.11 Wed Nov 11 06:48:42 UTC 2026",
@@ -30,7 +30,7 @@
       "ok": true,
       "skipped": false,
       "bytes": 889890,
-      "elapsed_ms": 457,
+      "elapsed_ms": 176,
       "error": ""
     },
     {
@@ -38,7 +38,7 @@
       "ok": true,
       "skipped": false,
       "bytes": 432126,
-      "elapsed_ms": 377,
+      "elapsed_ms": 70,
       "error": ""
     },
     {
@@ -46,23 +46,23 @@
       "ok": true,
       "skipped": false,
       "bytes": 452793,
-      "elapsed_ms": 108,
+      "elapsed_ms": 127,
       "error": ""
     },
     {
       "name": "mahdibland-sub-merge",
       "ok": true,
       "skipped": false,
-      "bytes": 1105421,
-      "elapsed_ms": 528,
+      "bytes": 1131409,
+      "elapsed_ms": 71,
       "error": ""
     },
     {
       "name": "pawdroid-free-servers",
       "ok": true,
       "skipped": false,
-      "bytes": 1504,
-      "elapsed_ms": 69,
+      "bytes": 3240,
+      "elapsed_ms": 75,
       "error": ""
     },
     {
@@ -70,7 +70,7 @@
       "ok": true,
       "skipped": false,
       "bytes": 5836,
-      "elapsed_ms": 97,
+      "elapsed_ms": 67,
       "error": ""
     },
     {
@@ -78,7 +78,7 @@
       "ok": true,
       "skipped": false,
       "bytes": 204027,
-      "elapsed_ms": 69,
+      "elapsed_ms": 15,
       "error": ""
     },
     {
@@ -86,9 +86,9 @@
       "ok": true,
       "skipped": false,
       "bytes": 6708,
-      "elapsed_ms": 95,
+      "elapsed_ms": 70,
       "error": ""
     }
   ],
-  "proxies_hash": "8df114142812db30"
+  "proxies_hash": "dde7e0c365ca1bc5"
 }
